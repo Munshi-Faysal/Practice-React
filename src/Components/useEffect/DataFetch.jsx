@@ -45,6 +45,7 @@ console.log(emp);
         {/* {emp && emp.map((x)=>{
             return <p key={x.id}>{x.title}</p>
         })} */}
+        
        {todosElement}
         
     </div>
