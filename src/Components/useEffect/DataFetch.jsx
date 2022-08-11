@@ -6,10 +6,11 @@ import Data from './Data';
 
 //let msgError = <p>{err}</p>
 let messageLoading = <div class="d-flex justify-content-center">
-<div class="spinner-border" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
 </div>;
+
 const DataFetch = () => {
     const [emp, setEmp] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
