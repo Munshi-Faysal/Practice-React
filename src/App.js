@@ -4,7 +4,7 @@ import CreateElement from "./CreateElement";
 import { ReactBootstrap } from "./Components/ReactBootstrap/ReactBootstrap";
 import Toggle from "./Components/Toggle/Toggle";
 import FAQS from "./Components/FAQsToggle/FAQS";
-import DataFetch from "./Components/useEffect/DataFetch";
+import DataFetch from "./Components/Hooks/CustomHooks/DataFetch";
 
 function App(){
 
@@ -14,7 +14,7 @@ function App(){
     // }
     // items = Data.map(i => <CardDesign Title ={i.title} Desc={i.desc} />)
 return <div>
-    <h3 className="headingStyle">Data Fetch</h3>
+    
     {/* {Data.map((i, index) => <CardDesign key={index} Title ={i.title} Desc={i.desc} />)} */}
 
     {/* <List /> */}
